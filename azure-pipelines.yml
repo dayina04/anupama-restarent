@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: pool
 
 steps:
 - script: echo Hello, world!
@@ -13,5 +13,5 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'stage-2'
 
-- script: echo azureeeeeeeeeeee
+- script: echo azureeeeeeeeeeeessss
   displayName: 'stage-3'
